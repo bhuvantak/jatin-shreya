@@ -63,6 +63,7 @@ window.WEDDING_CONFIG = {
     { name: "Haldi & Baan",     date: "2026-12-03", day: "Thursday",  time: "9:15 AM",         location: "Treehouse Rajbagh, Jodhpur", motif: "haldi",   image: "assets/images/fn-haldi.webp" },
     { name: "Chhaak",           date: "2026-12-03", day: "Thursday",  time: "2:15 PM",         location: "Treehouse Rajbagh, Jodhpur", motif: "chak",    image: "assets/images/fn-chak.webp" },
     { name: "Bhat",             date: "2026-12-03", day: "Thursday",  time: "4:00 PM",         location: "Treehouse Rajbagh, Jodhpur", motif: "potli",   image: "assets/images/fn-mayra.webp" },
+    { name: "Sangeet",          date: "2026-12-03", day: "Thursday",  time: "Evening, 7:00 PM", location: "Treehouse Rajbagh, Jodhpur", motif: "sangeet", image: "assets/images/fn-sangeet-stage.webp" },
     { name: "Baraat Prasthan (Wedding Procession Departure)", date: "2026-12-04", day: "Friday", time: "10:00 AM", location: "Treehouse Rajbagh, Jodhpur", motif: "horse", image: "assets/images/fn-barat.webp" },
     { name: "Reception",        date: "2026-12-04", day: "Friday",    time: "7:00 PM onwards", location: "Treehouse Rajbagh, Jodhpur", motif: "lantern", image: "assets/images/fn-reception.webp", framed: true }
   ],
