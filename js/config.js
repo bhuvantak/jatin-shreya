@@ -55,9 +55,9 @@ window.WEDDING_CONFIG = {
   functions: [
     { name: "Ganesh Poojan",    date: "2026-11-30", day: "Monday",   time: "7:15 AM",  location: "Residence", motif: "kalash",  image: "assets/images/fn-vinayak.webp" },
     { name: "Lagna Patrika",    date: "2026-11-30", day: "Monday",   time: "9:15 AM",  location: "Residence", motif: "patrika", image: "assets/images/fn-lagna-patrika.webp" },
-    { name: "Ladies Sangeet",   date: "2026-12-01", day: "Tuesday",  time: "2:00 PM",  location: "Residence", motif: "sangeet", image: "" },
+    { name: "Ladies Sangeet",   date: "2026-12-01", day: "Tuesday",  time: "2:00 PM",  location: "Residence", motif: "sangeet", image: "assets/images/fn-ladies-sangeet.webp" },
     { name: "Haldi & Baan",     date: "2026-12-03", day: "Thursday", time: "9:15 AM",  location: "Residence", motif: "haldi",   image: "assets/images/fn-haldi.webp" },
-    { name: "Chak",             date: "2026-12-03", day: "Thursday", time: "2:15 PM",  location: "Residence", motif: "chak",    image: "" },
+    { name: "Chak",             date: "2026-12-03", day: "Thursday", time: "2:15 PM",  location: "Residence", motif: "chak",    image: "assets/images/fn-chak.webp" },
     { name: "Bhat",             date: "2026-12-03", day: "Thursday", time: "4:00 PM",  location: "Residence", motif: "potli",   image: "assets/images/fn-mayra.webp" },
     { name: "Baraat Departure", date: "2026-12-04", day: "Friday",   time: "10:00 AM", location: "Residence", motif: "horse",   image: "assets/images/fn-barat.webp" },
     { name: "Reception",        date: "2026-12-04", day: "Friday",   time: "7:00 PM",  location: "Residence", motif: "lantern", image: "assets/images/fn-reception.webp", framed: true }
