@@ -31,9 +31,12 @@ window.WEDDING_CONFIG = {
   weddingDateText: "Friday, 4th December 2026",
   countdownTarget: "2026-12-04T00:00:00+05:30",
 
-  /* Background music: starts only after the guest opens the letter */
+  /* Background music: starts only after the guest opens the letter.
+     To change the song, put ONE file named "wedding-music" in assets/audio/
+     as either wedding-music.mp3 or wedding-music.mp4 (delete the old one).
+     The site tries these in order and plays the first one it finds. */
   media: {
-    music: "assets/audio/wedding-music.mp3"
+    music: ["assets/audio/wedding-music.mp3", "assets/audio/wedding-music.mp4", "assets/audio/wedding-music.m4a"]
   },
 
   /* Artwork. Leave any path "" to fall back to the built-in line drawing. */

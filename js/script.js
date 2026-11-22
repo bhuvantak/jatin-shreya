@@ -71,12 +71,20 @@
   var music = (function () {
     var btn = $("#music-toggle"), label = $(".music__label", btn);
     var audio = null, ok = true, wants = false;
-    var src = (CFG.media || {}).music;
+    // media.music can be one path or a list; the first file that exists is played
+    var list = [].concat((CFG.media || {}).music || []).filter(Boolean), pick = 0;
+    var src = list[0];
     function render(p) { btn.setAttribute("aria-pressed", p ? "true" : "false"); label.textContent = p ? "Music on" : "Music off"; }
     function ensure() {
       if (audio || !src) return audio;
       audio = new Audio(); audio.loop = true; audio.preload = "auto"; audio.volume = .55;
-      audio.addEventListener("error", function () { ok = false; btn.hidden = true; });
+      audio.addEventListener("error", function () {
+        pick++;
+        if (pick < list.length) {            // that file isn't there: try the next one
+          audio.src = list[pick];
+          if (wants) audio.play().catch(function () {});
+        } else { ok = false; btn.hidden = true; }
+      });
       audio.addEventListener("play", function () { render(true); });
       audio.addEventListener("pause", function () { render(false); });
       audio.src = src;
