@@ -51,16 +51,17 @@ window.WEDDING_CONFIG = {
      Shown in this order. Functions on the same date are grouped as one day.
      image: illustration (square, transparent works best). Leave "" to use the line drawing.
      motif: line drawing used when there's no image — one of
-       kalash, patrika, sangeet, haldi, chak, potli, horse, lantern            */
+       kalash, patrika, sangeet, mehendi, haldi, chak, potli, horse, lantern            */
   functions: [
-    { name: "Ganesh Poojan",    date: "2026-11-30", day: "Monday",   time: "7:15 AM",  location: "Residence", motif: "kalash",  image: "assets/images/fn-vinayak.webp" },
-    { name: "Lagna Patrika",    date: "2026-11-30", day: "Monday",   time: "9:15 AM",  location: "Residence", motif: "patrika", image: "assets/images/fn-lagna-patrika.webp" },
-    { name: "Ladies Sangeet",   date: "2026-12-01", day: "Tuesday",  time: "2:00 PM",  location: "Residence", motif: "sangeet", image: "assets/images/fn-ladies-sangeet.webp" },
-    { name: "Haldi & Baan",     date: "2026-12-03", day: "Thursday", time: "9:15 AM",  location: "Residence", motif: "haldi",   image: "assets/images/fn-haldi.webp" },
-    { name: "Chak",             date: "2026-12-03", day: "Thursday", time: "2:15 PM",  location: "Residence", motif: "chak",    image: "assets/images/fn-chak.webp" },
-    { name: "Bhat",             date: "2026-12-03", day: "Thursday", time: "4:00 PM",  location: "Residence", motif: "potli",   image: "assets/images/fn-mayra.webp" },
-    { name: "Baraat Departure", date: "2026-12-04", day: "Friday",   time: "10:00 AM", location: "Residence", motif: "horse",   image: "assets/images/fn-barat.webp" },
-    { name: "Reception",        date: "2026-12-04", day: "Friday",   time: "7:00 PM",  location: "Residence", motif: "lantern", image: "assets/images/fn-reception.webp", framed: true }
+    { name: "Ganesh Pujan",     date: "2026-11-30", day: "Monday",    time: "7:15 AM",         location: "Residence", motif: "kalash",  image: "assets/images/fn-vinayak.webp" },
+    { name: "Lagna Patrika",    date: "2026-11-30", day: "Monday",    time: "9:15 AM",         location: "Residence", motif: "patrika", image: "assets/images/fn-lagna-patrika.webp" },
+    { name: "Mahila Sangeet",   date: "2026-12-01", day: "Tuesday",   time: "2:00 PM",         location: "Residence", motif: "sangeet", image: "assets/images/fn-ladies-sangeet.webp" },
+    { name: "Mehendi",          date: "2026-12-02", day: "Wednesday", time: "11:00 AM",        location: "Residence", motif: "mehendi", image: "assets/images/fn-mehendi.webp" },
+    { name: "Haldi & Baan",     date: "2026-12-03", day: "Thursday",  time: "9:15 AM",         location: "Treehouse Rajbagh, Jodhpur", motif: "haldi",   image: "assets/images/fn-haldi.webp" },
+    { name: "Chhaak",           date: "2026-12-03", day: "Thursday",  time: "2:15 PM",         location: "Treehouse Rajbagh, Jodhpur", motif: "chak",    image: "assets/images/fn-chak.webp" },
+    { name: "Bhat",             date: "2026-12-03", day: "Thursday",  time: "4:00 PM",         location: "Treehouse Rajbagh, Jodhpur", motif: "potli",   image: "assets/images/fn-mayra.webp" },
+    { name: "Baraat Prasthan (Wedding Procession Departure)", date: "2026-12-04", day: "Friday", time: "10:00 AM", location: "Treehouse Rajbagh, Jodhpur", motif: "horse", image: "assets/images/fn-barat.webp" },
+    { name: "Reception",        date: "2026-12-04", day: "Friday",    time: "7:00 PM onwards", location: "Treehouse Rajbagh, Jodhpur", motif: "lantern", image: "assets/images/fn-reception.webp", framed: true }
   ],
 
   /* ---------------- Wedding venue ----------------

@@ -99,18 +99,17 @@ Then tell the user how to deploy on Vercel, as below. Don't try to do it yoursel
 
 | # | Function | Date | Day | Time | Location |
 |---|---|---|---|---|---|
-| 1 | Ganesh Poojan | 2026-11-30 | Monday | 7:15 AM | Residence |
+| 1 | Ganesh Pujan | 2026-11-30 | Monday | 7:15 AM | Residence |
 | 2 | Lagna Patrika | 2026-11-30 | Monday | 9:15 AM | Residence |
-| 3 | Ladies Sangeet | 2026-12-01 | Tuesday | 2:00 PM | Residence |
-| 4 | Haldi & Baan | 2026-12-03 | Thursday | 9:15 AM | Residence |
-| 5 | Chak | 2026-12-03 | Thursday | 2:15 PM | Residence |
-| 6 | Bhat | 2026-12-03 | Thursday | 4:00 PM | Residence |
-| 7 | Baraat Departure | 2026-12-04 | Friday | 10:00 AM | Residence |
-| 8 | Reception | 2026-12-04 | Friday | 7:00 PM | Residence |
+| 3 | Mahila Sangeet | 2026-12-01 | Tuesday | 2:00 PM | Residence |
+| 4 | Mehendi | 2026-12-02 | Wednesday | 11:00 AM | Residence |
+| 5 | Haldi & Baan | 2026-12-03 | Thursday | 9:15 AM | Treehouse Rajbagh, Jodhpur |
+| 6 | Chhaak | 2026-12-03 | Thursday | 2:15 PM | Treehouse Rajbagh, Jodhpur |
+| 7 | Bhat | 2026-12-03 | Thursday | 4:00 PM | Treehouse Rajbagh, Jodhpur |
+| 8 | Baraat Prasthan (Wedding Procession Departure) | 2026-12-04 | Friday | 10:00 AM | Treehouse Rajbagh, Jodhpur |
+| 9 | Reception | 2026-12-04 | Friday | 7:00 PM onwards | Treehouse Rajbagh, Jodhpur |
 
 **Wedding venue:** `Tree House Rajbagh Heritage Hotel`, `Near Dali Bai Circle, Jhanwar Road,\nJodhpur, Rajasthan`
-
-The Reception's location is still to be confirmed by the user. Leave it as `Residence` unless the user says otherwise.
 
 ## Later (not now): after the Vercel address is final
 

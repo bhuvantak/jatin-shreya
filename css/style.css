@@ -360,11 +360,12 @@ section { position: relative; padding: clamp(4.5rem, 12vw, 7.5rem) var(--gutter)
 .functions { background: var(--sand); padding-left: 0; padding-right: 0; overflow: clip; }
 .has-garland .functions { padding-top: calc(clamp(4.5rem, 12vw, 7.5rem) + min(18vw, 140px)); }
 .functions .section-title, .functions .section-lede { padding: 0 var(--gutter); }
-.daychips { display: flex; gap: .4rem; overflow-x: auto; padding: 1.4rem 1rem .4rem; scrollbar-width: none; justify-content: center; }
+.daychips { display: flex; gap: .4rem; overflow-x: auto; padding: 1.4rem 1rem .4rem; scrollbar-width: none; justify-content: flex-start; scroll-behavior: smooth; }
+.daychip:first-child { margin-left: auto; }   /* centred when they fit, scrollable from the first button when they don't */
+.daychip:last-child { margin-right: auto; }
 .daychips::-webkit-scrollbar { display: none; }
 .daychip { flex: none; min-height: 44px; padding: .4rem .75rem; border-radius: 999px; border: 1px solid rgba(34, 40, 82, .25); background: rgba(253, 248, 238, .7); color: var(--indigo); font-size: .8rem; cursor: pointer; transition: background-color .3s, color .3s, border-color .3s; white-space: nowrap; }
 .daychip[aria-selected="true"] { background: var(--indigo); color: var(--ivory); border-color: var(--indigo); }
-@media (max-width: 370px) { .daychips { justify-content: flex-start; } }
 
 .carousel { --cw: min(72vw, 330px); position: relative; }
 .carousel__track {

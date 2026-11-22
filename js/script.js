@@ -257,7 +257,8 @@
     if (!g || g.date !== f.date) { g = { date: f.date, items: [] }; groups.push(g); }
     g.items.push({ f: f, seq: i + 1 });
   });
-  var dayColors = ["#D9731F", "#B5446E", "#C98A12", "#222852", "#3E7A5A"];
+  // the wedding day is indigo; earlier days take saffron, rose, henna green and haldi gold in turn
+  var dayColors = ["#D9731F", "#B5446E", "#3E7A5A", "#C98A12"];
   function dayColor(i) { return i === groups.length - 1 ? "#222852" : dayColors[i % 4]; }
 
   (function countdown() {
@@ -434,6 +435,12 @@
       prev.disabled = current === 0; next.disabled = current === n - 1;
       var day = +cards[current].dataset.day;
       chipEls.forEach(function (ch, i) { ch.setAttribute("aria-selected", i === day ? "true" : "false"); });
+      // keep the current day's button in view when the row is wider than the screen
+      var chip = chipEls[day];
+      if (chip && chips.scrollWidth > chips.clientWidth) {
+        var want = chip.offsetLeft - chips.offsetLeft - (chips.clientWidth - chip.offsetWidth) / 2;
+        if (Math.abs(chips.scrollLeft - want) > 4) chips.scrollLeft = want;
+      }
     }
     track.addEventListener("scroll", function () { if (!pinned && !queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
     var wq = false;
