@@ -107,7 +107,7 @@ Then tell the user how to deploy on Vercel, as below. Don't try to do it yoursel
 | 6 | Chhaak | 2026-12-03 | Thursday | 2:15 PM | Treehouse Rajbagh, Jodhpur |
 | 7 | Bhat | 2026-12-03 | Thursday | 4:00 PM | Treehouse Rajbagh, Jodhpur |
 | 8 | Sangeet | 2026-12-03 | Thursday | Evening, 7:00 PM | Treehouse Rajbagh, Jodhpur |
-| 9 | Baraat Prasthan (Wedding Procession Departure) | 2026-12-04 | Friday | 10:00 AM | Treehouse Rajbagh, Jodhpur |
+| 9 | Baraat Prasthan | 2026-12-04 | Friday | 10:00 AM | Treehouse Rajbagh, Jodhpur |
 | 10 | Reception | 2026-12-04 | Friday | 7:00 PM onwards | Treehouse Rajbagh, Jodhpur |
 
 **Wedding venue:** `Tree House Rajbagh Heritage Hotel`, `Near Dali Bai Circle, Jhanwar Road,\nJodhpur, Rajasthan`
